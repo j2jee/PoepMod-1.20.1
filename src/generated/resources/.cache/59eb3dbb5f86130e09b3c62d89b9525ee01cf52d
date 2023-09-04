@@ -1,0 +1,4 @@
+// 1.20.1	2023-09-04T13:46:47.834003	Loot Tables
+1d4d5a95b8b636a326541cf51810d4f8ded8d217 data/poepmod/loot_tables/blocks/fake_bedrock.json
+f61cc954b4f688d41c08c5ae5e2af0a45b048dff data/poepmod/loot_tables/blocks/fake_diamond_block.json
+8b52338c0a390a702270452baf56ba93cd140446 data/poepmod/loot_tables/blocks/poep_block.json

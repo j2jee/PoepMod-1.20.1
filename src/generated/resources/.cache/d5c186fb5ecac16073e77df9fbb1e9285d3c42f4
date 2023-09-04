@@ -1,0 +1,10 @@
+// 1.20.1	2023-09-04T13:46:47.8330027	Block States: poepmod
+ba56b06f1e780da7268207a681a420c7e98f011f assets/poepmod/blockstates/fake_bedrock.json
+7580d9897cf173d5824ce7fc368847123057e183 assets/poepmod/blockstates/fake_diamond_block.json
+360678574b01d22629357990a41515232acd0113 assets/poepmod/blockstates/poep_block.json
+21f61267b5dcbe89da001a71b8502e3ab6949871 assets/poepmod/models/block/fake_bedrock.json
+a8d72ac676556cd1472062922936773424dbf5ba assets/poepmod/models/block/fake_diamond_block.json
+3a48b0720841a1f7587c0959ae6bc2ecce9fd3d7 assets/poepmod/models/block/poep_block.json
+9c4867d740d1e9c26327bc8c2547e583a1cd89ad assets/poepmod/models/item/fake_bedrock.json
+796df0ad2516ee966bfdf0a85302f5558e925d99 assets/poepmod/models/item/fake_diamond_block.json
+e49d1b3c1e032b8bf7d08f10a2cbadf1f3e8a93e assets/poepmod/models/item/poep_block.json

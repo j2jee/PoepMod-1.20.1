@@ -1,3 +1,15 @@
 {
-  "item.poepmod.poep": "Poep"
+  "item.poepmod.poep": "Poep",
+  "item.poepmod.fake_diamond": "Diamond",
+
+  "block.poepmod.poep_block": "Block of Poep",
+  "block.poepmod.fake_bedrock": "Bedrock",
+  "block.poepmod.fake_diamond_block": "Block of Diamond",
+
+  "item.poepmod.fake_diamond_helmet": "Diamond Helmet",
+  "item.poepmod.fake_diamond_chestplate": "Diamond Chestplate",
+  "item.poepmod.fake_diamond_leggings": "Diamond Leggings",
+  "item.poepmod.fake_diamond_boots": "Diamond Boots",
+
+  "creativetab.poep_tab": "Poep Tab"
 }

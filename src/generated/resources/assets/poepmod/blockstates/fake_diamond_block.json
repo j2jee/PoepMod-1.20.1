@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "poepmod:block/fake_diamond_block"
+    }
+  }
+}

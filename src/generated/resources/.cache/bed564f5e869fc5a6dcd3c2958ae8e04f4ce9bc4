@@ -1,0 +1,5 @@
+// 1.20.1	2023-09-04T13:46:47.8360029	Tags for minecraft:block mod id poepmod
+7bf36b6cb2ce2df0024ad6b17155df76b85871d4 data/forge/tags/blocks/needs_netherite_tool.json
+20b16b415b5320e8c6ac17013172bed6ce969213 data/minecraft/tags/blocks/mineable/pickaxe.json
+7ae17112e40274a14e9344faecf44dfbab5b29f6 data/minecraft/tags/blocks/mineable/shovel.json
+79b635c6a7d53dfeb428deddca50a653650a55ff data/minecraft/tags/blocks/needs_iron_tool.json

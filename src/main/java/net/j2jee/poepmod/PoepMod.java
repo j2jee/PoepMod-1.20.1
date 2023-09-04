@@ -1,6 +1,8 @@
 package net.j2jee.poepmod;
 
 import com.mojang.logging.LogUtils;
+import net.j2jee.poepmod.block.ModBlocks;
+import net.j2jee.poepmod.item.ModCreativeModeTabs;
 import net.j2jee.poepmod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -18,14 +20,16 @@ import org.slf4j.Logger;
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(PoepMod.MOD_ID)
 public class PoepMod {
-    // Define mod id in a common place for everything to reference
     public static final String MOD_ID = "poepmod";
-    // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
+
     public PoepMod() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
+        ModCreativeModeTabs.register(modEventBus);
+
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
@@ -39,6 +43,7 @@ public class PoepMod {
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
             event.accept(ModItems.POEP);
+            event.accept(ModBlocks.POEP_BLOCK);
         }
     }
 

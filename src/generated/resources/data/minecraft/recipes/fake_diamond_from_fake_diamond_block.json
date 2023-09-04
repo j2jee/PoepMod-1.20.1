@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "poepmod:fake_diamond_block"
+    }
+  ],
+  "result": {
+    "item": "poepmod:fake_diamond"
+  }
+}
