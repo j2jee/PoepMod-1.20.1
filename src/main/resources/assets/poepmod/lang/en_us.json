@@ -11,5 +11,11 @@
   "item.poepmod.fake_diamond_leggings": "Diamond Leggings",
   "item.poepmod.fake_diamond_boots": "Diamond Boots",
 
+  "item.poepmod.fake_diamond_pickaxe": "Diamond Pickaxe",
+  "item.poepmod.fake_diamond_shovel": "Diamond Shovel",
+  "item.poepmod.fake_diamond_axe": "Diamond Axe",
+  "item.poepmod.fake_diamond_sword": "Diamond Sword",
+  "item.poepmod.fake_diamond_hoe": "Diamond Hoe",
+
   "creativetab.poep_tab": "Poep Tab"
 }

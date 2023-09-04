@@ -10,7 +10,7 @@ import net.minecraft.world.item.crafting.Ingredient;
 import java.util.function.Supplier;
 
 public enum ModArmorMaterials implements ArmorMaterial {
-    FAKE_DIAMOND("fake_diamond", 25, new int[]{ 5, 7, 5, 4 }, 25,
+    FAKE_DIAMOND("fake_diamond", 25, new int[]{ 0, 0, 0, 0 }, 25,
             SoundEvents.ARMOR_EQUIP_DIAMOND, 1f, 0f, () -> Ingredient.of(ModItems.FAKE_DIAMOND.get()));
 
     private final String name;
@@ -37,13 +37,13 @@ public enum ModArmorMaterials implements ArmorMaterial {
     }
 
     @Override
-    public int getDurabilityForType(ArmorItem.Type type) {
-        return BASE_DURABILITY[type.ordinal()] * this.durabilityMultiplier;
+    public int getDurabilityForType(ArmorItem.Type pType) {
+        return BASE_DURABILITY[pType.ordinal()] * this.durabilityMultiplier;
     }
 
     @Override
-    public int getDefenseForType(ArmorItem.Type type) {
-        return this.protectionAmounts[type.ordinal()];
+    public int getDefenseForType(ArmorItem.Type pType) {
+        return this.protectionAmounts[pType.ordinal()];
     }
 
     @Override

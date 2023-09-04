@@ -49,15 +49,151 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(ModItems.FAKE_DIAMOND.get()), has(ModItems.FAKE_DIAMOND.get()))
                 .save(consumer, "fake_diamond_from_dirt");
 
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.FAKE_DIAMOND.get())  //,'9' for count
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.FAKE_DIAMOND.get(), 9 )  //, 9
                 .requires(ModBlocks.FAKE_DIAMOND_BLOCK.get())
                 .unlockedBy(getHasName(ModBlocks.FAKE_DIAMOND_BLOCK.get()), has(ModBlocks.FAKE_DIAMOND_BLOCK.get()))
                 .save(consumer, "fake_diamond_from_fake_diamond_block");
 
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.POEP.get())
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.POEP.get(), 9 )
                 .requires(ModBlocks.POEP_BLOCK.get())
                 .unlockedBy(getHasName(ModBlocks.POEP_BLOCK.get()), has(ModBlocks.POEP_BLOCK.get()))
                 .save(consumer, "poep_from_poep_block");
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.FAKE_DIAMOND_PICKAXE.get())
+                .pattern("FFF")
+                .pattern(" S ")
+                .pattern(" S ")
+                .define('F', ModItems.FAKE_DIAMOND.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(ModItems.FAKE_DIAMOND.get()), has(ModItems.FAKE_DIAMOND.get()))
+                .save(consumer, "fake_diamond_pickaxe");
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.FAKE_DIAMOND_SWORD.get())
+                .pattern("F  ")
+                .pattern("F  ")
+                .pattern("S  ")
+                .define('F', ModItems.FAKE_DIAMOND.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(ModItems.FAKE_DIAMOND.get()), has(ModItems.FAKE_DIAMOND.get()))
+                .save(consumer, "fake_diamond_sword_0");
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.FAKE_DIAMOND_SWORD.get())
+                .pattern(" F ")
+                .pattern(" F ")
+                .pattern(" S ")
+                .define('F', ModItems.FAKE_DIAMOND.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(ModItems.FAKE_DIAMOND.get()), has(ModItems.FAKE_DIAMOND.get()))
+                .save(consumer, "fake_diamond_sword_1");
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.FAKE_DIAMOND_SWORD.get())
+                .pattern("  F")
+                .pattern("  F")
+                .pattern("  S")
+                .define('F', ModItems.FAKE_DIAMOND.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(ModItems.FAKE_DIAMOND.get()), has(ModItems.FAKE_DIAMOND.get()))
+                .save(consumer, "fake_diamond_sword_2");
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.FAKE_DIAMOND_SHOVEL.get())
+                .pattern("F  ")
+                .pattern("S  ")
+                .pattern("S  ")
+                .define('F', ModItems.FAKE_DIAMOND.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(ModItems.FAKE_DIAMOND.get()), has(ModItems.FAKE_DIAMOND.get()))
+                .save(consumer, "fake_diamond_shovel_0");
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.FAKE_DIAMOND_SHOVEL.get())
+                .pattern(" F ")
+                .pattern(" S ")
+                .pattern(" S ")
+                .define('F', ModItems.FAKE_DIAMOND.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(ModItems.FAKE_DIAMOND.get()), has(ModItems.FAKE_DIAMOND.get()))
+                .save(consumer, "fake_diamond_shovel_1");
+
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.FAKE_DIAMOND_SHOVEL.get())
+                .pattern("  F")
+                .pattern("  S")
+                .pattern("  S")
+                .define('F', ModItems.FAKE_DIAMOND.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(ModItems.FAKE_DIAMOND.get()), has(ModItems.FAKE_DIAMOND.get()))
+                .save(consumer, "fake_diamond_shovel_2");
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.FAKE_DIAMOND_AXE.get())
+                .pattern("FF ")
+                .pattern("FS ")
+                .pattern(" S ")
+                .define('F', ModItems.FAKE_DIAMOND.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(ModItems.FAKE_DIAMOND.get()), has(ModItems.FAKE_DIAMOND.get()))
+                .save(consumer, "fake_diamond_axe_0");
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.FAKE_DIAMOND_AXE.get())
+                .pattern(" FF")
+                .pattern(" FS")
+                .pattern("  S")
+                .define('F', ModItems.FAKE_DIAMOND.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(ModItems.FAKE_DIAMOND.get()), has(ModItems.FAKE_DIAMOND.get()))
+                .save(consumer, "fake_diamond_axe_1");
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.FAKE_DIAMOND_AXE.get())
+                .pattern(" FF")
+                .pattern(" SF")
+                .pattern(" S ")
+                .define('F', ModItems.FAKE_DIAMOND.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(ModItems.FAKE_DIAMOND.get()), has(ModItems.FAKE_DIAMOND.get()))
+                .save(consumer, "fake_diamond_axe_2");
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.FAKE_DIAMOND_AXE.get())
+                .pattern("FF ")
+                .pattern("SF ")
+                .pattern("S  ")
+                .define('F', ModItems.FAKE_DIAMOND.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(ModItems.FAKE_DIAMOND.get()), has(ModItems.FAKE_DIAMOND.get()))
+                .save(consumer, "fake_diamond_axe_3");
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.FAKE_DIAMOND_HOE.get())
+                .pattern("FF ")
+                .pattern(" S ")
+                .pattern(" S ")
+                .define('F', ModItems.FAKE_DIAMOND.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(ModItems.FAKE_DIAMOND.get()), has(ModItems.FAKE_DIAMOND.get()))
+                .save(consumer, "fake_diamond_hoe_0");
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.FAKE_DIAMOND_HOE.get())
+                .pattern(" FF")
+                .pattern("  S")
+                .pattern("  S")
+                .define('F', ModItems.FAKE_DIAMOND.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(ModItems.FAKE_DIAMOND.get()), has(ModItems.FAKE_DIAMOND.get()))
+                .save(consumer, "fake_diamond_hoe_1");
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.FAKE_DIAMOND_HOE.get())
+                .pattern(" FF")
+                .pattern(" S ")
+                .pattern(" S ")
+                .define('F', ModItems.FAKE_DIAMOND.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(ModItems.FAKE_DIAMOND.get()), has(ModItems.FAKE_DIAMOND.get()))
+                .save(consumer, "fake_diamond_hoe_2");
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.FAKE_DIAMOND_HOE.get())
+                .pattern("FF ")
+                .pattern("S  ")
+                .pattern("S  ")
+                .define('F', ModItems.FAKE_DIAMOND.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(ModItems.FAKE_DIAMOND.get()), has(ModItems.FAKE_DIAMOND.get()))
+                .save(consumer, "fake_diamond_hoe_3");
 
 
     }

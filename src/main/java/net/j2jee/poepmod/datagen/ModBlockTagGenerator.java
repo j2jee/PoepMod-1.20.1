@@ -2,6 +2,7 @@ package net.j2jee.poepmod.datagen;
 
 import net.j2jee.poepmod.PoepMod;
 import net.j2jee.poepmod.block.ModBlocks;
+import net.j2jee.poepmod.util.ModTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.tags.BlockTags;
@@ -32,5 +33,8 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
 
         this.tag(BlockTags.MINEABLE_WITH_SHOVEL)
                 .add(ModBlocks.POEP_BLOCK.get());
+
+        this.tag(ModTags.Blocks.NEEDS_FAKE_DIAMOND_TOOL);
+
     }
 }

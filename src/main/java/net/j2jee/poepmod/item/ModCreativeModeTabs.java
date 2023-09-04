@@ -30,7 +30,12 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.FAKE_DIAMOND_CHESTPLATE.get());
                         output.accept(ModItems.FAKE_DIAMOND_LEGGINGS.get());
                         output.accept(ModItems.FAKE_DIAMOND_BOOTS.get());
-
+                        //tools
+                        output.accept(ModItems.FAKE_DIAMOND_PICKAXE.get());
+                        output.accept(ModItems.FAKE_DIAMOND_SHOVEL.get());
+                        output.accept(ModItems.FAKE_DIAMOND_SWORD.get());
+                        output.accept(ModItems.FAKE_DIAMOND_AXE.get());
+                        output.accept(ModItems.FAKE_DIAMOND_HOE.get());
                     })
                     .build());
 

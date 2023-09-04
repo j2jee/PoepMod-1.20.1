@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "poepmod:item/fake_diamond_pickaxe"
+  }
+}

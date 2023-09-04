@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "F": {
+      "item": "poepmod:fake_diamond"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    " FF",
+    "  S",
+    "  S"
+  ],
+  "result": {
+    "item": "poepmod:fake_diamond_hoe"
+  },
+  "show_notification": true
+}

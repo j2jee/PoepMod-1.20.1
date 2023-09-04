@@ -1,5 +1,6 @@
-// 1.20.1	2023-09-04T14:43:13.0917943	Item Models: poepmod
+// 1.20.1	2023-09-04T22:46:48.6949235	Item Models: poepmod
 1be9ac55a9b1ede30ab9e500346ba0c73ad26032 assets/poepmod/models/item/fake_diamond.json
+7a23ada25bb98804562caf17392b582ce275d7c5 assets/poepmod/models/item/fake_diamond_axe.json
 5e2754f81741f5c65d712dffc266cc6a243c0a80 assets/poepmod/models/item/fake_diamond_boots.json
 6071714b3f9958c3292f05043619f54e9abb8aba assets/poepmod/models/item/fake_diamond_boots_amethyst_trim.json
 c5ce63832d191783a8e4bcf11de4af43f64cb7cc assets/poepmod/models/item/fake_diamond_boots_copper_trim.json
@@ -33,6 +34,7 @@ ba6d693cb73d45a6f069b6ccccedd4f86c939889 assets/poepmod/models/item/fake_diamond
 89548b8c964835ba5b8951e09b1e961f4b24b959 assets/poepmod/models/item/fake_diamond_helmet_netherite_trim.json
 f37b516f79fc194b961fbc6c5559c5732797dad7 assets/poepmod/models/item/fake_diamond_helmet_quartz_trim.json
 68967f4c6b4f0c97bc8d749cf904a93a0398ce7a assets/poepmod/models/item/fake_diamond_helmet_redstone_trim.json
+f67e895292f2c208f9110c74cce919cc629ffe21 assets/poepmod/models/item/fake_diamond_hoe.json
 3022d40f9d689d0f99db32469970e48493e2574d assets/poepmod/models/item/fake_diamond_leggings.json
 72c394b305d97df3cd2760d506ab578cb845819c assets/poepmod/models/item/fake_diamond_leggings_amethyst_trim.json
 4e63af0a1ab38d0697ad9117cf932876f1f11d7a assets/poepmod/models/item/fake_diamond_leggings_copper_trim.json
@@ -44,4 +46,7 @@ d6b7a5d6dd13c6dd7a2867047b5c24516c771002 assets/poepmod/models/item/fake_diamond
 064b54cfdd1eb2a05915a51d4a3f38bc0c4f436b assets/poepmod/models/item/fake_diamond_leggings_netherite_trim.json
 c5a83e9d9961e498aa51b3e62949f99b63b7a863 assets/poepmod/models/item/fake_diamond_leggings_quartz_trim.json
 753cd4ceb09205c73421590917d3694041e3e0f9 assets/poepmod/models/item/fake_diamond_leggings_redstone_trim.json
+0e1cc7c26715d1baeb8691b56058062bcecbcc70 assets/poepmod/models/item/fake_diamond_pickaxe.json
+a0cfb888274fd06da323080fa0b04585737ffe95 assets/poepmod/models/item/fake_diamond_shovel.json
+f3bd9bb04e7e17f43dd51ab7479a0635d9eebe53 assets/poepmod/models/item/fake_diamond_sword.json
 bc6e28d4821ec554adfbe4201ed58ea0b4489ef5 assets/poepmod/models/item/poep.json
